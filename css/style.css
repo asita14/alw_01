@@ -1,0 +1,182 @@
+*{
+  margin:0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+body{
+  margin-top: 6rem;
+}
+
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-width: 600px;
+  height: 6rem;
+  background-color: #001e43;
+  box-shadow: 0 3px 0.5rem rgba(0,0,0,.4);
+}
+
+header h1{
+  position: absolute;
+  top: 2rem;
+  left: 3rem;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.heading3 {
+  padding-left: 0.5em;
+  font-size: 1.5em;
+  color: white;
+  border-left: 4px solid #483d8d;
+}
+.heading4 {
+  padding-left: 0.5em;
+  font-size: 1.5em;
+  color: black;
+  border-left: 4px solid #483d8d;
+}
+
+header ul{
+
+}
+
+header li{
+
+}
+
+
+
+.navButton {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+}
+
+.navButton i {
+  color: white;
+  cursor: pointer;
+}
+
+nav {
+  position: absolute;
+  top: 7rem;
+  left: 0;
+  width: 100%;
+}
+
+.menu {
+  background-color: rgba(64,64,64,.7);
+  box-shadow: 0 4px 0.3125rem rgba(0,0,0,.3);
+}
+
+.menu li {
+  height: 3rem;
+  border-bottom: solid 1px #AAA;
+}
+
+.menu a {
+  display: block;
+  padding: 0.75rem;
+  text-align: center;
+  color: #FFF;
+}
+
+.menu a:hover {
+  background-color: #222;
+}
+
+
+
+
+
+
+
+
+nav {
+  position: absolute;
+  top: 2.5rem;
+  right: 3rem;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+}
+
+nav ul li{
+  margin-left: 1.5rem;
+  font-size: 0.85rem;
+}
+
+nav a{
+  color: white;
+}
+
+#wrapper {
+}
+
+
+
+
+section {
+  padding-top: 3rem;
+  padding-right: 12%;
+  padding-left: 12%;
+  min-height: 18rem;
+}
+
+section h1{
+  margin-bottom: 1rem;
+}
+
+footer{
+  padding: 3rem;
+  background-color: #001e43;
+  color: white;
+  text-align: center;
+}
+
+/* parallax window */
+.parallax-window {
+  padding-top: 3rem;
+  padding-right: 12%;
+  padding-left: 12%;
+  min-height: 18rem;
+  background: transparent;
+}
+
+.parallax-window h1{
+  color: white;
+}
+
+.parallax-window p{
+  color: white;
+}
+
+
+
+.continue {
+  font-size: 14px;
+  color: lightslategray;
+  text-decoration: none;
+}
+
+.continue::after {
+  display: inline-block;
+  width: 0.4em;
+  height: 0.4em;
+  margin: 0 0.2em 0.1em;
+  content: '';
+  border-right: 0.14em solid #d84444;
+  border-bottom: 0.14em solid #d84444;
+  transform: rotate(-45deg);
+}
+
+.continue:hover {
+  opacity: 0.6;
+}
